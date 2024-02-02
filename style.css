@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+a, .heroSubText {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body1 {
+    display: flex;
+}
+
+.innerBody1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainImage {
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.item {
+    width: 120px;
+    height: 120px;
+}
+
+
+img.itemImage {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 25px;
+    border-width: 2px;
+    width: 80px;
+    height: 80px;
+    background-color: grey;
+}
+
+.container3 {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.body3 {
+    display: flex;
+    color: #1F2937;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.container4 {
+    background-color: #3882F6;
+    display: flex;
+}
+
+.body4 {
+    display: flex;
+    flex-direction: column;
+}
+
+button.signUp {}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
